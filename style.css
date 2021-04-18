@@ -1,0 +1,427 @@
+/* */
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/*Menu*/
+
+h1{
+    color: black;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 90px;
+    margin-left: 80px;
+}
+
+nav{
+    height: 19vh;
+    margin-top: -65px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    margin-top: -160px;
+    width: 50%;
+    height: 59%;
+    justify-content: space-around;
+    align-items: left;
+    margin-left: auto;
+}
+
+.nav-links li a{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    font-family:'Bebas Neue', cursive;
+}
+
+/* */
+.nav-links li a:hover{
+    color:rgb(139, 133, 133);
+}
+/*  */
+
+
+/*Cor do body*/
+body{
+    background: #eeeded;
+}
+
+section img{
+    border-radius: 50px;
+}
+
+.caixa{
+    margin: 0 80px 0 80px;
+}
+
+/*Paragrafo 1*/
+.tipodetextoum h2{
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.tipodetextoum p{
+    font-size: 20px;
+    width: 70%;
+    font-family: 'Kiwi Maru', serif;
+    margin-top: -35px;
+}
+
+/* Paragrafo 2*/
+.tipodetextodois h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+.tipodetextodois p{
+    font-size: 20px;
+    width: 80%;
+    font-family: 'Kiwi Maru', serif;
+    margin-top: -35px;
+}
+
+
+/* Paragrafo 3*/
+.tipodetextotres{
+    font-size: 35px;
+    text-align: center;
+    margin: 100px 0 20px 0;
+    font-family: 'Pacifico', cursive;
+}
+
+/*Bordas das 3 imagens*/
+.galeria img{
+    border-radius: 65px;
+}
+
+/*Paragrafo 4*/
+.tipodetextoquatro a{
+    color: black;
+}
+
+.tipodetextoquatro a:hover{
+    color: rgb(109, 103, 106);
+}
+
+.tipodetextoquatro p{
+    font-size: 33px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+.tipodetextoquatro hr{
+    margin-top: 60px;
+}
+
+/*Frase 5*/
+.tipodetextocinco h2{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Satisfy', cursive;
+    color: rgb(112, 16, 54);
+}
+
+/*Tenis*/
+.tenis h3{
+    font-size: 45px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-top: 0;
+    color: rgb(109, 16, 55);;
+}
+
+.tenis img{
+    margin-top: -40px;
+}
+
+.tenis h4{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:rgb(109, 16, 55);
+    font-size: 30px;
+    margin-top: -40px;
+}
+
+/*Btn*/
+.btn{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    background: #7c0c37;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(122, 8, 56);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.btn:hover, .btn:focus, .btn:active{
+    box-shadow: 0 0 20px rgb(103, 12, 116);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.tenis a:hover{
+    color: white;
+}
+
+hr{
+    margin-top: 120px;
+}
+
+/*Paragrafo 6*/
+
+.tipodetextoseis{
+    height: 1100px;
+    margin-left: 60px;
+}
+
+.tipodetextoseis h2{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+} 
+
+.stories img{
+    border-radius: 5px;
+    margin-top: 30px;
+    height: 700px;
+    display: inline-block;
+}
+
+.stories a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.quadradoleft{
+    height: 850px;
+    width: 50%;
+    display: inline-block;
+}
+
+.quadradoleft img{
+    border-radius: 7px;
+}
+
+.quadradoleft a, h3{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    text-align: center;
+    font-family: 'New Tegomin', serif;
+}
+
+.quadradoright{
+    height: 890px;
+    width: 49%;
+    display: inline-block;
+}
+
+.quadradoright a{
+    text-decoration: none;
+    color:black;
+}
+
+.quadradoright img{
+    border-radius: 7px;
+}
+
+h5{
+    display: none;
+}
+.seta{
+    margin: 60px 100px -40px 0;
+}
+
+/*Footer*/
+
+body, footer{
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    background-color: #6e7582;
+    height: 200px;
+    margin-top: 50px;
+}
+
+footer h2{
+    color: #e69276;
+    font-size: 80px;
+    display: inline-block;
+    margin: 10px 0 0 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+footer h3{
+    color: #dddbdb;
+    font-size: 18px;
+    display: inline-block;
+    margin: -40px 0 0 55px;
+    font-family: 'Kiwi Maru', serif;
+}
+
+footer h4{
+    text-align: right;
+    margin-top: -115px;
+    margin-right: 105px;
+    font-size: 30px;
+    color: #dddbdb;
+    font-family: 'Kiwi Maru', serif;
+}
+
+.icones{
+    font-size: 40px;
+    text-align: right;
+    margin-right: 135px;
+    margin-top: -40px;
+}
+
+.icones a{
+    color: white;
+}
+
+.icones a:hover{
+    color: black;
+}
+
+.responsavel h3{
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+/*Media Querie*/
+
+@media screen and (max-width: 890px) {
+    .line{
+        width: 45px;
+        height: 5px;
+        background: black;
+        margin: 5px;
+    } 
+
+    nav{
+        position: relative;
+    }
+
+    .hamburguer{
+        position: absolute;
+        cursor: pointer;
+        right: 4%;
+        top: 25%;
+        z-index: 2;
+    }
+
+    .nav-links{
+        position: fixed;
+        background-color: #eeeded;
+        height: 110vh;
+        width: 100%;
+        margin-top: -203px;
+        flex-direction: column;
+        text-align: center;
+        clip-path: circle( 100px at 90% -10%);
+        -webkit-clip-path: circle( 0px at 90% -10%);
+        transition: all 1s ease-out;
+    }
+
+    .nav-links.open{
+        clip-path: circle( 1000px at 90% -10%);
+        -webkit-clip-path: circle( 1200px at 90% -10%);
+    }
+
+    .tipodetextotres h2{
+        font-size: 43px;
+    }
+
+    .quadradoleft a h3{
+        margin-left: -50px;
+        font-size: 23px;
+    }
+
+    .galeria img{
+        display: inline-block;
+        width: 49%;
+        border-radius: 10px;
+    }
+
+    .tipodetextocinco h2{
+        font-size: 40px;
+    }
+
+    .tipodetextoseis h2{
+        font-size: 80px;
+    }
+
+    .tipodetextoseis{
+        height: 1120px;
+    }
+
+    .quadradoleft img{
+        margin-left: -40px;
+        width: 207%;
+        height: 380px;
+    }
+
+    .seta img{
+        display: none;
+    }
+
+    .quadradoright{
+        display: none;
+    }
+
+    .other a, h5{
+        display: block;
+        font-size: 25px;
+        color: black;
+        text-align: center;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    footer{
+        height: 400px;
+    }
+
+    footer h2{
+        display: flex;
+        justify-content: center;
+        font-size: 100px;
+    }
+
+    footer h3{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        margin-left: 40px;
+    }
+    footer h4, .icones{
+        display: flex;
+        justify-content: center;
+        margin-left: 120px;
+    }
+
+    footer h4{
+        margin-top: 30px;
+        font-size: 35px;
+    }
+
+    .icones{
+        margin-top: -40px;
+        margin-left: 150px;
+    }
+}
