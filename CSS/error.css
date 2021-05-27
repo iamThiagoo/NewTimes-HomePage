@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+body{
+    background-color: #eeeded;
+}
+
+.gatin{
+    display: grid;
+    place-items: center;
+    margin-top: 70px;
+}
