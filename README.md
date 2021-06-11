@@ -6,5 +6,5 @@ Um dos meus projetos pessoais onde produzo uma Home Page de uma marca de roupas 
 - CSS
 - JavaScript
 
-## Link do projeto: https://iamthiagoo.github.io/NewTimes-HomePage/
+### Nota: infelizmente não consegui o gif para expor aqui no Readme, por isso estou disponibilizando o <a href="https://iamthiagoo.github.io/NewTimes-HomePage/">link do projeto</a> para caso tenha interesse em vê-lo.
 
