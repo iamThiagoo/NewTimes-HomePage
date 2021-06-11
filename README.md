@@ -1,2 +1,10 @@
 # NewTimes :computer: 
-## Essa é a homepage da "New Times", meu projeto pessoal que decidi criar. E ao longo do período de criação dela, ficava cada vez mais admirado pelo caminho que este projeto estava indo e o resultado final me agradou muito. Admiro tanto esse trabalho que quis compartilhar ele para que outras pessoas o vejam. 😊 <a href="https://iamthiagoo.github.io/NewTimes-HomePage/">CLIQUE AQUI PARA VER O RESULTADO </a>
+Um dos meus projetos pessoais onde produzo uma Home Page de uma marca de roupas que intitulei de "New Times". Enquanto a produzia usei sites de marcas semelhantes como a da GUCCI para compor o layout final e procurei deixar a experiência do usuário satisfatória.
+
+## Tecnologias utilizadas:
+- HTML
+- CSS
+- JavaScript
+
+## Link do projeto: https://iamthiagoo.github.io/NewTimes-HomePage/
+
